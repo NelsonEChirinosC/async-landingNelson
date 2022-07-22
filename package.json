@@ -1,0 +1,23 @@
+{
+  "name": "async-landingnelson",
+  "version": "1.0.0",
+  "description": "landing page with async",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/assets/style.css -o ./src/public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NelsonEChirinosC/async-landingNelson.git"
+  },
+  "keywords": [],
+  "author": "Nelson Chirinos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NelsonEChirinosC/async-landingNelson/issues"
+  },
+  "homepage": "https://github.com/NelsonEChirinosC/async-landingNelson#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
